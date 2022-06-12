@@ -13,6 +13,7 @@ function App() {
       bg={useColorModeValue("white", "blackAlpha.300")}
       color={useColorModeValue("black", "gray.200")}
     >
+      <div>hello</div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />

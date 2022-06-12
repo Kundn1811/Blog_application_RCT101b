@@ -18,6 +18,7 @@ const ColorModeSwitcher = (props) => {
       icon={<SwitchIcon />}
       aria-label={`Switch to ${text} mode`}
       {...props}
+      
     />
   );
 };
